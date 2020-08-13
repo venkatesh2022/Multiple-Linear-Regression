@@ -28,5 +28,3 @@ If you have three feature variables, or may be 10 or 100? Building a separate mo
 ### Model building
 ### Making predictions
 ### Plotting
-## Model Refinement Using RFE
-The goal of recursive feature elimination (RFE) is to select features by recursively considering smaller and smaller sets of features. First, the estimator is trained on the initial set of features and the importance of each feature is obtained either through a coef_ attribute or through a feature_importances_ attribute. Then, the less important features are pruned from the the current set of features. This procedure is recursively repeated on the pruned dataset until the desired number of features to select is reached.
